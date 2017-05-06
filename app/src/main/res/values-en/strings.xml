@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Empreza_zapatos</string>
+    <string name="cantidad">quantity</string>
+    <string name="clasico">classic</string>
+    <string name="femenino">female</string>
+    <string name="masculino">male</string>
+    <string name="sexo">choose sex</string>
+    <string name="tipozapato">choose type of shoe</string>
+    <string name="total">calculate total</string>
+    <string name="zapatilla">slipper</string>
+    <string name="zapatos">Brand Shoes</string>
+    <string name="adidas">Adidas</string>
+    <string name="nike">Nike</string>
+    <string name="puma">Puma</string>
+</resources>
