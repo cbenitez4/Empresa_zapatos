@@ -12,6 +12,9 @@
     <string name="nike">Nike</string>
     <string name="adidas">Adidas</string>
     <string name="puma">Puma</string>
+    <string name="error_vacio">Digite la cantidad</string>
+    <string name="error_cero">Valor no puede ser cero</string>
+    <string name="borrar">BORRAR</string>
     <string-array name="sexo">
         <item>@string/masculino</item>
         <item>@string/femenino</item>

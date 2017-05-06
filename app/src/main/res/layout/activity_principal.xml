@@ -11,7 +11,7 @@
         android:layout_height="495dp"
         android:orientation="vertical"
         android:weightSum="1"
-        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="8dp">
 
         <TextView
@@ -72,22 +72,48 @@
             android:id="@+id/txtcantidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="0.04"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
-        <Button
-            android:id="@+id/button2"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.04"
-            android:text="@string/total" />
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="total"
+                android:text="@string/total" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="borrar"
+                android:text="@string/borrar" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txsubtotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txtotal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.04"
-            android:textAlignment="center" />
+            android:textSize="14sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

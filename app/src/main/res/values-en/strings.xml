@@ -13,4 +13,7 @@
     <string name="adidas">Adidas</string>
     <string name="nike">Nike</string>
     <string name="puma">Puma</string>
+    <string name="error_cero">it´s can´t zero</string>
+    <string name="error_vacio">enter the amount</string>
+    <string name="borrar">Clear</string>
 </resources>
